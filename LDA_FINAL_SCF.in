@@ -1,0 +1,43 @@
+&CONTROL
+calculation = 'scf'
+pseudo_dir = '.'
+verbosity = 'high'
+/
+
+&SYSTEM
+celldm(1) = 4.494960168
+celldm(4) = 0.569423006
+degauss = 1.00000e-02
+ecutrho = 4.50000e+02
+ecutwfc = 5.00000e+01
+ibrav = 5
+nat = 10
+ntyp = 2
+nbnd = 52
+noncolin=.true
+lspinorb=.true
+occupations = "fixed"
+smearing = "gaussian"
+/
+
+&ELECTRONS
+/
+
+ATOMIC_SPECIES
+Al 26.981539 al_lda_v1.uspp.F.UPF
+O 15.999 o_lda_v1.2.uspp.F.UPF
+
+
+ATOMIC_POSITIONS {crystal}
+Al       0.147157045   0.147157045   0.147157045
+Al       0.352842955   0.352842955   0.352842955
+Al       0.647157045   0.647157045   0.647157045
+Al       0.852842955   0.852842955   0.852842955
+O        0.055265031   0.750000000   0.444734969
+O        0.250000000   0.555265031   0.944734969
+O        0.444734969   0.055265031   0.750000000
+O        0.555265031   0.944734969   0.250000000
+O        0.750000000   0.444734969   0.055265031
+O        0.944734969   0.250000000   0.555265031
+K_POINTS {automatic}
+4 4 4 0 0 0

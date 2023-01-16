@@ -1,0 +1,40 @@
+
+     Program DOS v.6.4.1 starts on 15Jan2023 at  4: 4:27 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on       8 processor cores
+     Number of MPI processes:                 1
+     Threads/MPI process:                     8
+
+     MPI processes distributed on     1 nodes
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PZ ( 1  1  0  0 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum         597     265    103                 9211     2741     647
+
+
+     Tetrahedra used
+
+
+     DOS          :   6m13.50s CPU   8m 1.27s WALL
+
+
+   This run was terminated on:   4:12:28  15Jan2023            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

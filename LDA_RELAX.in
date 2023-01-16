@@ -1,0 +1,45 @@
+&CONTROL
+calculation = 'relax'
+forc_conv_thr = 0.01
+pseudo_dir = '.'
+/
+
+&SYSTEM
+A = 5.17800e+00
+degauss = 1.00000e-02
+ecutrho = 4.50000e+02
+ecutwfc = 5.00000e+01
+ibrav = 5
+nat = 10
+ntyp = 2
+noncolin=.true
+lspinorb=.true
+occupations = "smearing"
+smearing = "gaussian"
+/
+&ELECTRONS
+
+/
+&IONS
+ ion_dynamics = "bfgs"
+/
+
+ATOMIC_SPECIES
+Al 26.981539 al_lda_v1.uspp.F.UPF
+O 15.999 o_lda_v1.2.uspp.F.UPF
+
+ATOMIC_POSITIONS {crystal}
+Al 0.1479	0.1479	0.1479
+Al 0.3521	0.3521	0.3521
+Al 0.6479	0.6479	0.6479
+Al 0.8521	0.8521	0.8521
+O 0.0561	0.75	0.4439
+O 0.25	0.5561	0.9439
+O 0.4439	0.0561	0.75
+O 0.5561	0.9439	0.25
+O 0.75	0.4439	0.0561
+O 0.9439	0.25	0.5561
+
+
+K_POINTS {automatic}
+6 6 2 0 0 0
